@@ -12,7 +12,6 @@ function solution(array) {
 }
 
 /* 다른사람의 풀이 */
-// 아니 근데 난 왜 안됐던거임??
 function solution(array) {
   return array.sort((a, b) => a - b)[Math.floor(array.length / 2)];
 }
